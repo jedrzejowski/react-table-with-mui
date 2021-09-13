@@ -9,6 +9,7 @@
             "es2017",
             "dom"
         ],
+        "jsx": "react",
         "strict": true,
         "sourceMap": true,
         "declaration": true,
@@ -16,10 +17,10 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "declarationDir": "dist/types",
-        "outDir": "dist/lib",
         "typeRoots": [
             "node_modules/@types"
-        ]
+        ],
+        "rootDir": "src"
     },
     "include": [
         "src"
